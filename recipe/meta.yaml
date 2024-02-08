@@ -1,5 +1,5 @@
 {% set name = "napari-locpix" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-locpix-{{ version }}.tar.gz
-  sha256: 67e467794661bd67245b25894759fff4b3a26978339aa1cf09ce05e909b471d0
+  sha256: 07a81fe97d36b7f633355ffc6e61f8abf5439aad4ff5fcf1d35a191e82aff85a
 
 build:
   noarch: python
